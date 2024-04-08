@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+body {
+	background: #f9f9f9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.shadow {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-tab-nav {
+	min-width: 200px;
+}
+.navs{
+    display: block;
+}
+.tab-contents {
+	flex: 1;
+}
+
+.tab-contents p{
+	font-size: 13px;
+	opacity: 0.8;
+}
+.form-group {
+	margin-bottom: 1.5rem;
+}
+.form-group label{
+	font-size: 14px;
+}
+.form-group input, 
+.form-group select, 
+.form-group option{
+	font-size: 14px;
+}
+.nav-pills a.nav-links {
+	font-size: 13px;
+	font-weight: 600;
+	padding: 8px 20px;
+	/* border-bottom: 1px solid #ddd; */
+	border-radius: 0;
+	color: #333;
+}
+.nav-pills a.nav-links i {
+	font-size: 17px;
+	font-weight: 400;
+	width: 20px;
+}
+
+.img-circle img {
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+}
